@@ -6,9 +6,7 @@ body{
 ul{
 	list-style-type: none;
 }
-header{
-	z-index: 9999;
-}
+
 .top_info{
 	font-size: 13px;
 	max-height: 50px;
@@ -34,7 +32,7 @@ header{
 	color: #000;
 	margin-right: -15px;
 	padding-left:30px;
-	padding-top:;
+	padding-top:10px;
 }
 .header_nav a:hover{
 	text-decoration: none;
@@ -369,10 +367,20 @@ p.brand_item{
 @media (min-width: 768px){
     
 }
+header{
+	position: relative;
+	z-index: 9999;
 
+}
 .container-fluid.hidden{
 	display:none;
 	z-index: 9999;
+	position: absolute; 
+	top: 100%;
+}
+.container-fluid.hidden li:hover{
+	text-decoration: none;
+	background-color: #f8f8f8;
 }
 
 .pshhh{
@@ -387,4 +395,33 @@ p.brand_item{
 }
 .middle_content{
 	z-index: 5;
+}
+.menuOpened .content { 
+	opacity: 0.3; 
+}
+.hamburger{
+	padding: 0;
+	margin: 0;
+}
+.hamburger i{
+	padding-right: 0;
+}
+/*.right_nav{
+	background: #fff;
+	color: #000;
+}*/
+.right_nav{
+	background: #fff;
+	padding-bottom: 50px;
+}
+.sidenav_hid{
+	padding-left: 20px;
+    padding-top: 30px;
+    color: #a7a7a7;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.right_nav .icons li{
+	padding-right: 15px;
+	font-size: 20px;
 }
