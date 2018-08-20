@@ -236,6 +236,10 @@ border-radius: 5px;
 .map p{
 	margin-bottom: 0;
 }
+li.products_list{
+	
+  text-transform: uppercase;
+}
 p.sity{
 	font-size: 18px;
 	font-weight: bold;
@@ -267,7 +271,9 @@ p.adr{
 .bottom__wr ul{
 	padding-left: 0;
 }
-
+.bottom__wr li{
+	color: #9c9c9c;
+}
 .bottom_wr input{
 	width: 270px;
 	height: 45px;
