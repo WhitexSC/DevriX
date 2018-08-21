@@ -130,6 +130,7 @@ ul{
 }
 
 
+
 /*quote*/
 .quote{
 	font-style: italic;
@@ -384,11 +385,11 @@ header{
 	position: absolute; 
 	top: 100%;
 }
-.container-fluid.hidden li:hover{
+.container-fluid.hidden li:hover,
+.container-fluid.hidden li.active{
 	text-decoration: none;
 	background-color: #f8f8f8;
 }
-
 .pshhh{
 	position: absolute;
     width: 100%;
@@ -430,4 +431,7 @@ header{
 .right_nav .icons li{
 	padding-right: 15px;
 	font-size: 20px;
+}
+#hidden_height{
+	background-color: #fff;
 }
